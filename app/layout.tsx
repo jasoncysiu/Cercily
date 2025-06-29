@@ -6,8 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Mental OS - AI-Powered Decision Framework",
-  description: "Your AI decision cockpit powered by Gemini",
+  title: "Cercily - Mental OS and Decision canva",
+  description: "Your AI decision canva",
     generator: 'v0.dev'
 }
 
