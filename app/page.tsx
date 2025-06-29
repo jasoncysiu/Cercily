@@ -59,7 +59,7 @@ export default function Cercily() {
                 <div className="text-center mb-6 md:mb-8">
                   <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Cercily</h1>
                   <p className="text-lg md:text-xl text-gray-600 mb-6 md:mb-8">
-                    Your AI-powered decision cockpit. Describe any problem and get instant mental model frameworks.
+                    Describe any problem and get instant advice with mental model frameworks.
                   </p>
                 </div>
 
