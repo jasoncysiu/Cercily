@@ -79,24 +79,23 @@ export function ProblemInput({ onSubmit, placeholder, initialProblem = "", initi
           />
         </div>
 
-        {userMode === "OverThinker" && ( // Conditionally render for OverThinker
-          <div>
-            <Label htmlFor="ai-model-select" className="text-sm font-medium mb-2 block">
-              Select AI Model:
-            </Label>
-            <Select value={selectedAiModel} onValueChange={setSelectedAiModel} disabled={isLoading}>
-              <SelectTrigger id="ai-model-select" className="w-full">
-                <SelectValue placeholder="Select an AI model" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="gemini-pro">Gemini 1.5 Flash</SelectItem>
-                <SelectItem value="gemini-2.5-flash">Gemini 2.5 Flash</SelectItem>
-                <SelectItem value="deepseek-v3-0324">Deepseek v3-0324 (Beta)</SelectItem>
-                <SelectItem value="claude-opus" disabled>Claude Opus (Disabled)</SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
-        )}
+        {/* AI Model Selection - Now always visible */}
+        <div>
+          <Label htmlFor="ai-model-select" className="text-sm font-medium mb-2 block">
+            Select AI Model:
+          </Label>
+          <Select value={selectedAiModel} onValueChange={setSelectedAiModel} disabled={isLoading}>
+            <SelectTrigger id="ai-model-select" className="w-full">
+              <SelectValue placeholder="Select an AI model" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="gemini-pro">Gemini 1.5 Flash</SelectItem>
+              <SelectItem value="gemini-2.5-flash">Gemini 2.5 Flash</SelectItem>
+              <SelectItem value="deepseek-v3-0324">Deepseek v3-0324 (Beta)</SelectItem>
+              <SelectItem value="claude-opus" disabled>Claude Opus (Disabled)</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
 
         <div className="flex justify-end mt-4">
           <Button
