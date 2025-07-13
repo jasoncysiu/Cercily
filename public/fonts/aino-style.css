@@ -1,0 +1,46 @@
+/* public/fonts/aino-style.css */
+
+@font-face {
+  font-family: 'Aino';
+  src: url('/fonts/Aino-Regular.woff2') format('woff2'),
+       url('/fonts/Aino-Regular.otf') format('opentype'); /* Changed to otf */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aino';
+  src: url('/fonts/Aino-Italic.woff2') format('woff2'),
+       url('/fonts/Aino-Italic.otf') format('opentype'); /* Changed to otf */
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aino';
+  src: url('/fonts/Aino-Bold.woff2') format('woff2'),
+       url('/fonts/Aino-Bold.otf') format('opentype'); /* Changed to otf */
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aino';
+  src: url('/fonts/Aino-BoldItalic.woff2') format('woff2'),
+       url('/fonts/Aino-BoldItalic.otf') format('opentype'); /* Changed to otf */
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aino';
+  src: url('/fonts/Aino-Headline.woff2') format('woff2'),
+       url('/fonts/Aino-Headline.otf') format('opentype'); /* Changed to otf */
+  font-weight: 800; /* Assuming Headline is extra bold */
+  font-style: normal;
+  font-display: swap;
+}
